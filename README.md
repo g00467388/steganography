@@ -9,10 +9,11 @@ optionally use the -h flag to output an additional image displaying the modified
 # Building
 ## Dependencies
 dotnet-sdk-9.0
+
 dotnet-runtime-9.0
 ## Build
 ``` sh
 git clone https://github.com/g00467388/steganography
-dotnet restore && dotnet publish
+cd steganography && dotnet restore && dotnet publish
 ```
 Note This program only works on png images, other file types likely won't work
